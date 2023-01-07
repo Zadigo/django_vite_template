@@ -1,0 +1,32 @@
+{
+  "main.ts": {
+    "file": "main.dac35ee7.js",
+    "src": "main.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/Index.vue"
+    ],
+    "css": [
+      "main.21155c79.css"
+    ]
+  },
+  "pages/Index.vue": {
+    "file": "Index.a79c0f9d.js",
+    "src": "pages/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.ts"
+    ],
+    "css": [
+      "Index.8ddb2ac7.css"
+    ]
+  },
+  "pages/Index.css": {
+    "file": "Index.8ddb2ac7.css",
+    "src": "pages/Index.css"
+  },
+  "main.css": {
+    "file": "main.21155c79.css",
+    "src": "main.css"
+  }
+}

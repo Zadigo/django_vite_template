@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+inertia-django = "*"
+django-vite = "*"
+whitenoise = "*"
+django-extensions = "*"
+django-debug-toolbar = "*"
+requests = "*"
+psycopg2 = "*"
+pillow = "*"
+django-imagekit = "*"
+stripe = "*"
+autopep8 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
