@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_extensions',
     'debug_toolbar',
+    'js_routes',
     'django_vite',
     'inertia',
     'vue_app',
@@ -160,3 +161,9 @@ WHITENOISE_IMMUTABLE_FILE_TEST = immutable_file_test
 
 # Debug
 INTERNAL_IPS = ['127.0.0.1']
+
+
+# JS routes
+JS_ROUTES_INCLUSION_LIST = [
+    'vue_app:home_view'
+]

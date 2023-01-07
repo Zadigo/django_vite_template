@@ -1,4 +1,4 @@
-{% load django_vite %}
+{% load django_vite js_routes_tags %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,5 +14,6 @@
 
   <body>
     {% block inertia %}{% endblock %}
+    {% js_routes %}
   </body>
 </html>

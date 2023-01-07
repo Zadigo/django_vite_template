@@ -16,6 +16,7 @@ pillow = "*"
 django-imagekit = "*"
 stripe = "*"
 autopep8 = "*"
+django-js-routes = "*"
 
 [dev-packages]
 
