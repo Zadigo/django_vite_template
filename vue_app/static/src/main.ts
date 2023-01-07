@@ -28,6 +28,10 @@ createInertiaApp({
     instance.use(createAxios())
     instance.use(localstorage)
     instance.use(session)
+    instance.use((app) => {
+      const csrf = document.querySelector('meta[name="csrf_token"]')
+      app.config.globalProperties.csrfToken = csrf?.content
+    })
     instance.component('FontAwesomeIcon', FontAwesomeIcon)
     instance.mount(el)
   }
