@@ -5,7 +5,7 @@
         <base-card>
           <template #body>
             <h1>Home view / <span class="text-primary">{{ pageName }}</span></h1>
-            <a href="{% url 'home_view' %}">Home</a>
+            <a href="{% url 'index_view' %}">Home</a>
             <a href @click.prevent="showModal = !showModal">Modal</a>
           </template>
         </base-card>
@@ -21,6 +21,7 @@
 <script>
 import BaseCard from '../layouts/bootstrap/cards/BaseCard.vue'
 import BaseModal from '../layouts/bootstrap/BaseModal.vue'
+
 export default {
   name: 'IndexView',
   props: {

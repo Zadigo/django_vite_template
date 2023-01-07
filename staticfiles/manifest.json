@@ -1,17 +1,17 @@
 {
   "main.ts": {
-    "file": "main.dac35ee7.js",
+    "file": "main.eae13271.js",
     "src": "main.ts",
     "isEntry": true,
     "dynamicImports": [
       "pages/Index.vue"
     ],
     "css": [
-      "main.21155c79.css"
+      "main.3b867747.css"
     ]
   },
   "pages/Index.vue": {
-    "file": "Index.a79c0f9d.js",
+    "file": "Index.b3a59ade.js",
     "src": "pages/Index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -26,7 +26,7 @@
     "src": "pages/Index.css"
   },
   "main.css": {
-    "file": "main.21155c79.css",
+    "file": "main.3b867747.css",
     "src": "main.css"
   }
 }
